@@ -1,11 +1,9 @@
 ---
 layout: post
-title:      "BostonEvents: My CLI Data Gem Project"
-date:       2017-12-25 18:53:40 +0000
+title:      "My CLI Data Gem Project: BostonEvents"
+date:       2017-12-25 13:53:41 -0500
 permalink:  bostonevents_my_cli_data_gem_project
 ---
-
-https://github.com/lizbur10/boston-events-cli-app
 
 The Object Relationships lessons and labs in  the OO Ruby section of the curriculum were challenging for me. Wrapping my head around object relationships and how to get everything to collaborate -- which classes should be responsible for what, how to call a class's methods from another class -- was a struggle. But once I got to my CLI Project I discovered something: if you're building the app from the ground up, it's actually easier. You let the natural structure of your project guide you in how to organize and tie everything together. 
 
@@ -130,3 +128,7 @@ While the process of completing this project involved many challenges, the organ
 3. Nothing - that was it.
 
 Fun.
+
+https://github.com/lizbur10/boston-events-cli-app
+
+
