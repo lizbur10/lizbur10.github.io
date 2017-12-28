@@ -5,7 +5,7 @@ date:       2017-12-25 13:53:41 -0500
 permalink:  bostonevents_my_cli_data_gem_project
 ---
 
-The Object Relationships lessons and labs in  the OO Ruby section of the curriculum were challenging for me. Wrapping my head around object relationships and how to get everything to collaborate -- which classes should be responsible for what, how to call a class's methods from another class -- was a struggle. But once I got to my CLI Project I discovered something: if you're building the app from the ground up, it's actually easier. You let the natural structure of your project guide you in how to organize and tie everything together. 
+The Object Relationships lessons and labs in  the OO Ruby section of the curriculum were challenging for me. Wrapping my head around object relationships and how to get everything to collaborate -- which classes should be responsible for what, how to call a class's methods from another class -- was a struggle. But once I got to my CLI Project I discovered something: if you're building the app from the ground up, it's actually easier. The natural structure of your project helps guide you in how to organize and tie everything together. 
 
 The project I chose allows users to explore events happening around the Boston area. Because the website I was scraping had events organized into categories (stage, music, art, etc.), that was the logical place to start: present users with a list of categories and ask them to choose one.
 
@@ -121,7 +121,7 @@ end
 
 The tricky part would be making sure that all the events belonging to that Venue or Sponsor are scraped and instantiated before running the corresponding #list_events method. A similar issue would arise with regard to potential List All Events functionality. Because event scraping is initiated by the category the user selects, any events that belong to categories that haven't been viewed by the user won't exist yet.
 
-While the process of completing this project involved many challenges, the organization and structure came together much more easily than I was expecting. The advantages of using an object oriented approach became much more apparent to me as I worked to create the app. One particularly memorable moment was when I changed my mind about including the "Culture" category from the website I was scraping. I initially chose not to because there didn't seem to be much going on on that page, but later I took another look and decided to include it after all. Here's what I had to do to make that happen:
+While the process of completing this project involved many challenges, the organization and structure came together more easily than I was expecting. The advantages of using an object oriented approach became much more apparent to me as I worked to create the app. One particularly memorable moment was when I changed my mind about including the "Culture" category from the website I was scraping. I initially chose not to because there didn't seem to be much going on on that page, but later I took another look and decided to include it after all. Here's what I had to do to make that happen:
 
 1. Add a culture item to the puts statements on the cli page
 2. Update the case statement on the same page to match.
