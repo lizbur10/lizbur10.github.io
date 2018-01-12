@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bringing it all Together"
-date:       2018-01-11 00:40:59 +0000
+date:       2018-01-10 19:41:00 -0500
 permalink:  bringing_it_all_together
 ---
 
@@ -17,9 +17,9 @@ The ::create_table and ::drop_table methods are quite straightforward; they inte
 
 ::find_by_id, ::find_by_name, and ::new_from_db all access information from the database and use that information to instantiate an object. ::find_or_create_by has the same behavior, but also saves the object to the database by calling the ::create method. ::create is the only method that acts directly upon both the database and the object.
 
-I created the diagram to help me keep straight exactly what each method should be able to do. The methods to be implemented were familiar but different -- a recipe for confusion and disorientation. Some examples:
+I created the diagram to help me keep straight exactly what each method should be able to do. The methods to be implemented were familiar but different -- a recipe for confusion. Some examples:
 * It isn't immediately obvious from the names of the #save, ::create, and #update methods whether it's an object or a row in the database that's being saved/created/updated. 
-* The find methods find instances that already exist in the database, but they also instantiate an object, which is new.
+* The find methods find instances that already exist in the database, but they also instantiate an object, which is unfamiliar behavior.
 * In earlier sections of the curriculum, the purpose of save methods was to add objects to an array. However, the addition of databases to the picture makes the @@all array irrelevant. But databases can't actually take the place of the @@all array because the objects themselves can't be saved into a database -- only their attribute values can. As a result, the find methods are as much about creating an object as finding one.
 
 Just when you think you've got it, everything changes.
