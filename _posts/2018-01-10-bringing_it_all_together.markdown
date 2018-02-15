@@ -9,7 +9,7 @@ Learning to code sometimes feels a bit like learning to juggle. You start off wi
 
 The ORM section was a juggling challenge for me. Just SQL was bad enough with its rigid syntax and the merry guessing game of what counterintuitive stew of commands would get it to cough up the goods. But then we had to add SQL interactions with a database into the mix along with the object relationships, collaborating objects, etc. of OO Ruby, and it was at least one too many balls for me. By the time I got to the Bringing It All Together Lab I knew I had to do something to try to tame the cognitive overload. So I created this:
 
-![](http://burtonux.com/bringing_it_all_together.png)
+![](http://burtonux.com/flatiron_blog/bringing_it_all_together.png)
 
 This diagram shows how I set up the relationships among the methods in the Dog class. Each rectangle or oval represents a method. Methods shown as rectangles act upon the database, while the ovals act upon an object. The create method acts upon both so it's represented by a rectangle with rounded corners. Finally, the yellow methods are instance methods while the white ones are Class methods. 
 
