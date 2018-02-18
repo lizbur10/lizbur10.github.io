@@ -1,11 +1,11 @@
 ---
 layout: post
-title:      "Sinatra Project"
-date:       2018-02-18 12:58:57 +0000
+title:      "A Derailment Story (Pre-Rails)"
+date:       2018-02-18 07:58:58 -0500
 permalink:  sinatra_project
 ---
 
-For my project, I chose to address a real-life need for an organization I'm involved with. This was a mistake. 
+For my Sinatra project, I chose to address a real-life need for an organization I'm involved with. This was a mistake. 
 
 Okay, not really, but it turned into a lengthy detour from the curriculum. On the plus side, I now have something that may someday be deployed and used, which would make it all worthwhile. But even if it isn't, I learned a lot. Below are a few of the issues I grappled with in creating my app.
 
