@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "A Rails Project That's for the Birds -- but in a good way"
+title:      "A Rails Project That's for the Birds -- but in a Good Way"
 date:       2018-04-11 18:13:26 -0400
 permalink:  a_rails_project_thats_for_the_birds
 ---
