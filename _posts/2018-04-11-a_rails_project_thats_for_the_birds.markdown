@@ -1,10 +1,11 @@
 ---
 layout: post
 title:      "A Rails Project That's for the Birds"
-date:       2018-04-11 22:13:25 +0000
+date:       2018-04-11 18:13:26 -0400
 permalink:  a_rails_project_thats_for_the_birds
 ---
 
+## -- but in a good way
 For my Rails project I continued working on an app I had developed for my Sinatra project. The purpose of the app is to centralize and streamline data entry for a bird banding station I'm involved with. The project is described more fully in my [blog entry for the Sinatra project](http://http://burtondev.com/sinatra_project).
 
 ## A nesting rats' nest 
