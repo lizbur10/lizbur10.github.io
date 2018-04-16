@@ -164,7 +164,7 @@ the `error_exists` methods would return true and the `field_with_errors` class w
 
 even though only the last row contains a validation error. 
 
-Mimicking dynamic behavior had one additional side effect: the final set of blank fields rendered after all the birds have been entered throws a validation error when you try to post the report. To handle that case, I created an `all_fields_blank?` method that ends the processing of the form: 
+The workaround for the dynamic fields had one additional side effect: the final set of blank fields rendered after all the birds have been entered throws a validation error when you try to post the report. To handle that case, I created an `all_fields_blank?` method that ends the processing of the form before the validations occur: 
 
 ```
 def birds_of_species_attributes=(birds_of_species_attributes)
