@@ -164,4 +164,16 @@ the `error_exists` methods would return true and the `field_with_errors` class w
 
 even though only the last row contains a validation error. 
 
-Alert readers may have picked up the fact that my edit form isn't really an edit form -- it's an add-more form. Clearly this is not a permanent solution, but it's kind of cool nonetheless. 
+Finally, once all the birds have been entered, the final set of blank fields loaded after the last bird is entered throws a validation error when you try to post the report, so I needed to handle that condition as well: 
+
+```
+def birds_of_species_attributes=(birds_of_species_attributes)
+		if all_fields_blank?
+				return
+		else
+		...
+end
+
+```
+
+Alert readers may have picked up the fact that my edit form isn't really an edit form -- it's an add-more form. Clearly this is not a permanent solution. I'll be glad when I can program it right using JavaScript. 
