@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scope & Hoisting in JavaScript"
-date:       2018-08-19 22:15:35 +0000
+date:       2018-08-19 18:15:35 -0400
 permalink:  scope_and_hoisting_in_javascript
 ---
 
@@ -228,7 +228,7 @@ function Person(){
 var p = new Person();
 ```
 
-The solution is not only cleaner and more concise, but also more logical: it just seems natural in this context that `this` would be pointing to the object and not to the global context. Nice.
+The solution is not only cleaner and more concise, but it also feels more logical: it just seems natural in this context that `this` would be pointing to the object and not to the global context. Nice.
 
 
 ### Sources used for this post:
