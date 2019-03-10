@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Putting it all Together"
-date:       2018-11-13 22:01:54 +0000
+date:       2018-11-13 17:01:55 -0500
 permalink:  putting_it_all_together
 ---
 
 
-An interesting thing happened the day I decided I was ready to submit my React/Redux final project: I took a look at the final product and discovered it didn't look at all like something that should have taken over a month and a half to complete. There just wasn't that much to it. It freaked me out a little, I can't lie. A look at the [Github repo](https://github.com/lizbur10/nme-account-manager) revealed that I had made 144 commits, but I wasn't sure whether that should make me feel better or worse. Had it taken me a month and a half and 144 commits to do very little? It was not the happiest moment in my Flatiron School journey.
+An interesting thing happened the day I decided I was ready to submit my React/Redux final project: I took a look at the final product and discovered it didn't really look like something that should have taken over a month and a half to complete. There just didn't seem to be that much to it. It freaked me out a little, I can't lie. A look at the [Github repo](https://github.com/lizbur10/nme-account-manager) revealed that I had made 144 commits, but I wasn't sure whether that should make me feel better or worse. 
 
-In hopes that it would make me feel a little better, I spent some time looking through my commits to remind myself of what I had been doing all that time. It made me feel a little better almost right away (although it probably shouldn't have) when I figured out that it was really more like a month of actual work days. But it didn't change the fact that I was looking at a final product that seemed pretty thin. However, in the silver lining department, the process of looking back through all the work I'd done turned out to be a valuable exercise: I got a nice overview of the whole process, and a reminder of a lot of things I'd forgotten. Looking at it from the 10,000 foot level made it seem a lot more orderly and organized than it felt while I was doing it. It also gave me a little sense of pride at everything I'd accomplished, which was a nice bonus.
+Clearly, I had forgotten some things, so I decided to some time looking through my commits to remind myself of what all I had done. This process turned out to be a valuable exercise: I got a nice overview of the whole process, and a reminder of a lot of details that had faded in my memory. Looking at it from the 10,000 foot level made it seem a lot more orderly and organized than it felt while I was doing it. It also gave me a little sense of pride at everything I'd accomplished, which was a nice bonus.
 
 The 10,000 foot level view can be divided into the following 6 steps:
 
@@ -176,5 +176,4 @@ Finally, once I tracked down and killed all the errors from implementing Redux, 
 Throughout the process, I spent a fair amount of additional time restructuring, reorganizing, and refactoring. This also was very satisying. At first I couldn't remember where anything was in my project to save my life. But after spending a lot of time with the code, coding and recoding, streamlining and consolidating, restructuring and DRYing, now that only happens about half the time. 
 
 ## Final Thoughts
-My project still feels pretty thin to me, but it's pretty far from being ready for prime time. There are a lot features that are still to be added and improvements to be made to what *is* there. But looking back over everything I'd done helped me realize that some of that thinness was actually the product of a whole lot of work: sometimes less on the page (whether it's the files containing your code or the browser window showing your app) is better.
-
+The project is still a work in progress. There are a lot features that are still to be added and improvements to be made to what is there. But looking back over everything I'd done helped me realize that my initial reaction to its simplicity was mistaken: there's solid functionality in the backend while the interface is simple and straightforward. That's a good thing. 
