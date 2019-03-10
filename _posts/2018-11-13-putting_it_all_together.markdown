@@ -8,7 +8,7 @@ permalink:  putting_it_all_together
 
 An interesting thing happened the day I decided I was ready to submit my React/Redux final project: I took a look at the final product and discovered it didn't really look like something that should have taken over a month and a half to complete. There just didn't seem to be that much to it. It freaked me out a little, I can't lie. A look at the [Github repo](https://github.com/lizbur10/nme-account-manager) revealed that I had made 144 commits, but I wasn't sure whether that should make me feel better or worse. 
 
-Clearly, I had forgotten some things, so I decided to some time looking through my commits to remind myself of what all I had done. This process turned out to be a valuable exercise: I got a nice overview of the whole process, and a reminder of a lot of details that had faded in my memory. Looking at it from the 10,000 foot level made it seem a lot more orderly and organized than it felt while I was doing it. It also gave me a little sense of pride at everything I'd accomplished, which was a nice bonus.
+Clearly, I had forgotten some things, so I decided to spend some time looking through my commits to remind myself of what all I had done. This turned out to be a valuable exercise: I got a nice overview of the whole process, and a reminder of a lot of details that had faded in my memory. Looking at it from the 10,000 foot level made it seem a lot more orderly and organized than it felt while I was doing it. It also gave me a little sense of pride at everything I'd accomplished, which was a nice bonus.
 
 The 10,000 foot level view can be divided into the following 6 steps:
 
